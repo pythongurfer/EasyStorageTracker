@@ -10,4 +10,8 @@ public class Device {
     public String toString(){
         return "Device: " + model;
     }
+
+    public String toJson(){
+        return "{\"type\":\"Device\", \"model\":\"" + model + "\"}";
+    }
 }

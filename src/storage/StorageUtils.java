@@ -25,4 +25,8 @@ public class StorageUtils {
             System.out.println(item + " is still fresh. ");
         }
     }
+
+    // public static <T> void printJson(T item){ dont understand what to do here
+
+    }
 }

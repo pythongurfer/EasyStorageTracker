@@ -11,4 +11,9 @@ public class Snack extends Perishable {
     public String toString(){
         return "Snack: " + name + ", expired=" + isExpired();
     }
+
+    public String toJson(){
+        return "{\"type\":\"Snack\", \"name\":\"" + name + "\", \"expired\":" + isExpired() + "}";
+
+    }
 }

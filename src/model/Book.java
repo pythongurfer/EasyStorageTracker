@@ -10,4 +10,8 @@ public class Book  {
     public String toString(){
         return "Book: " + title;
     }
+
+    public String toJson(){
+        return "{\"type\":\"Book\", \"title\":\"" + title + "\"}";
+    }
 }
